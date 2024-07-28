@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Создание проекта с нуля</title>
+    <link rel="stylesheet" href="src/styles/slick.css">
+    <link rel="stylesheet" href="src/styles/slick-theme.css">
+    <link rel="stylesheet" href="src/styles/magnific-popup.css">
+    <link rel="stylesheet" href="src/styles/animate.min.css">
+<!--    <link rel="stylesheet/less" href="src/styles/styles.less">-->
+<!--    <link rel="stylesheet/less" href="src/styles/adaptive.less">-->
+    <link rel="stylesheet" href="dist/css/styles.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+</head>
+<body>
+
+<header>
+    <div class="container header-container">
+        <div class="logo"><a href="#"><img src="images/logo.png" alt="logo"></a></div>
+
+        <nav class="menu">
+            <ul id="menu">
+                <div class="close" id="close">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+                 <g>
+	               <g>
+		                <path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+			c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+			c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+			L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+			c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+			c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+			c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+	              </g>
+                </g>
+            </svg>
+                </div>
+                <li class="menu-item">
+                    <a href="#our-plants">Флорариумы</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#present">Акции</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#how-work">Как мы работаем</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#conditions">Доставка и оплата</a>
+                </li>
+            </ul>
+        </nav>
+        <button type="button" class="button ring-button" id="ring-button">Заказать звонок</button>
+
+        <div class="burger" id="burger">
+            <svg width="800px" height="800px" viewBox="0 0 72 72" id="emoji" xmlns="http://www.w3.org/2000/svg">
+                <g id="line">
+                    <line x1="16" x2="56" y1="26" y2="26" fill="none" stroke="#000000" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+                    <line x1="16" x2="56" y1="36" y2="36" fill="none" stroke="#000000" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+                    <line x1="16" x2="56" y1="46" y2="46" fill="none" stroke="#000000" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+                </g>
+            </svg>
+        </div>
+    </div>
+</header>
+
+<section class="main">
+    <div class="container main-container ">
+<div class="main-text wow animate__fadeInDown">
+    <h1>Сад для вашего дома в Краснодаре</h1>
+    <p>Делайте сюрпризы для своих любимых незабываемыми вместе с Florarium!</p>
+    <a href="#our-plants" class="button green-button">Посмотреть флорариумы</a>
+
+    <div class="advantages">
+        <div class="advantage wow animate__bounceInDown">
+            <img src="images/hands.png" alt="hands">
+            <p>Очень неприхотливы и просты в уходе</p>
+        </div>
+        <div class="advantage wow animate__bounceInDown">
+            <img src="images/drops.png" alt="drops">
+            <p>Поливать раз в неделю</p>
+        </div>
+        <div class="advantage wow animate__bounceInDown">
+            <img src="images/clock.png" alt="clock">
+            <p>Доставим бесплатно в любое время дня и ночи</p>
+        </div>
+    </div>
+</div>
+<div class="wow animate__zoomIn"><img class="main-image" src="images/main-image.png" alt="pots"></div>
+    </div>
+</section>
+
+<section class="about">
+    <div class="container about-container">
+    <h2>О нас</h2>
+    <div class="about-content">
+
+        <div class="about-content1 wow animate__slideInLeft">
+            <div class="about-image1"><img src="images/about-image1.png" alt=""></div>
+            <p class="about-text1">Мы влюблены в цветы и в свою работу. На протяжении 8 лет мы создаем красоту из живых цветов, составляем композиции из эхеверии и крассулы, экспериментируем с формами, цветами и сочетаниями.</p>
+        </div>
+        <div class="about-content2 wow animate__slideInRight">
+            <div class="about-image2"><img src="images/about-image2.png" alt=""></div>
+            <p class="about-text2">Мы дарим каждому клиенту настоящую радость и любовь - это миссия нашего магазина. Вдохновляясь современными тенденциями во флористике, мы придумываем что-то новое, стремимся показать самые необычные и интересные сочетания цветов. К созданию флорариумов подходим с душой и любовью.</p>
+        </div>
+    </div>
+    </div>
+    <div class="cactus1"><img src="images/cactus1.png" alt="cactus1"></div>
+    <div class="cactus2"><img src="images/cactus2.png" alt="cactus2"></div>
+</section>
+
+<section class="our-plants" id="our-plants">
+    <div class="container our-plants-container">
+    <h2>Наши растения</h2>
+    <div class="our-plants-menu">
+        <div class="our-plants-menu-items">
+            <span class="our-plants-menu-item" id="florariums">Флорариумы</span>
+            <span class="our-plants-menu-item" id="orchidariums">Орхидариумы</span>
+        </div>
+
+    <div class="florariums wow animate__zoomIn">
+        <div class="florariums-item-big">
+            <div class="florarium-item-image"><img src="images/fairy-tale.png" alt="florarium1"></div>
+            <div class="florarium-item-header-big">Ночная сказка</div>
+            <div class="florarium-item-text">Флорариум с яркими суккулентами в вазе ручной работы</div>
+            <div class="florarium-item-price-big">5500 руб.</div>
+            <button type="button" class="basket"><img src="images/basket.png" alt="basket"></button>
+        </div>
+        
+        <div class="florariums-item">
+            <div class="florarium-item-image"><img src="images/succulents.png" alt="florarium2"></div>
+            <div class="florarium-item-header">Суккуленты</div>
+            <div class="florarium-item-price">2500 руб.</div>
+            <button type="button" class="basket"><img src="images/basket.png" alt="basket"></button>
+        </div>
+        
+        <div class="florariums-item">
+            <div class="florarium-item-image"><img src="images/mini-garden.png" alt="florarium3"></div>
+            <div class="florarium-item-header">Мини-сад</div>
+            <div class="florarium-item-price">3000 руб.</div>
+            <button type="button" class="basket"><img src="images/basket.png" alt="basket"></button>
+        </div>
+        
+        <div class="florariums-item">
+            <div class="florarium-item-image"><img src="images/sea-world.png" alt="florarium4"></div>
+            <div class="florarium-item-header">Морской мир</div>
+            <div class="florarium-item-price">2000 руб.</div>
+            <button type="button" class="basket"><img src="images/basket.png" alt="basket"></button>
+        </div>
+        
+        <div class="florariums-item">
+            <div class="florarium-item-image"><img src="images/mars.png" alt="florarium5"></div>
+            <div class="florarium-item-header">Марс</div>
+            <div class="florarium-item-price">4500 руб.</div>
+            <button type="button" class="basket"><img src="images/basket.png" alt="basket"></button>
+        </div>
+    </div>
+
+    <div class="orchidariums">
+        <div class="orchidariums-item">
+            <div class="orchidarium-item-image"><img src="images/orchidarium1.png" alt="orchidarium1"></div>
+            <div class="orchidarium-item-header">Кристалл</div>
+            <div class="orchidarium-item-price">3750 руб.</div>
+            <button type="button" class="basket"><img src="images/basket.png" alt="basket"></button>
+        </div>
+
+        <div class="orchidariums-item">
+            <div class="orchidarium-item-image"><img src="images/orchidarium2.png" alt="orchidarium2"></div>
+            <div class="orchidarium-item-header">Вдохновение</div>
+            <div class="orchidarium-item-price">3500 руб.</div>
+            <button type="button" class="basket"><img src="images/basket.png" alt="basket"></button>
+        </div>
+
+        <div class="orchidariums-item">
+            <div class="orchidarium-item-image"><img src="images/orchidarium3.png" alt="orchidarium3"></div>
+            <div class="orchidarium-item-header">Прохлада</div>
+            <div class="orchidarium-item-price">4000 руб.</div>
+            <button type="button" class="basket"><img src="images/basket.png" alt="basket"></button>
+        </div>
+
+        <div class="orchidariums-item">
+            <div class="orchidarium-item-image"><img src="images/orchidarium4.png" alt="orchidarium4"></div>
+            <div class="orchidarium-item-header">Мелодия</div>
+            <div class="orchidarium-item-price">4200 руб.</div>
+            <button type="button" class="basket"><img src="images/basket.png" alt="basket"></button>
+        </div>
+
+        <div class="orchidariums-item">
+            <div class="orchidarium-item-image"><img src="images/orchidarium5.png" alt="orchidarium5"></div>
+            <div class="orchidarium-item-header">Полёт</div>
+            <div class="orchidarium-item-price">3000 руб.</div>
+            <button type="button" class="basket"><img src="images/basket.png" alt="basket"></button>
+        </div>
+
+        <div class="orchidariums-item">
+            <div class="orchidarium-item-image"><img src="images/orchidarium6.png" alt="orchidarium6"></div>
+            <div class="orchidarium-item-header">Сон в летнюю ночь</div>
+            <div class="orchidarium-item-price">4500 руб.</div>
+            <button type="button" class="basket"><img src="images/basket.png" alt="basket"></button>
+        </div>
+    </div>
+    </div>
+
+    <button type="button" class="button order-button" id="forming-order">Оформить заказ</button>
+    </div>
+</section>
+
+<section class="present" id="present">
+    <div class="container present-container wow animate__fadeOut">
+        <div class="present-image"><img src="images/present.png" alt="present"></div>
+        <div class="present-text">
+            <h2>Подарок к каждому заказу</h2>
+            <p>К каждому букету прилагается бесплатная <span>открытка или сладкий презент.</span>
+          </p>
+            <p>Закажите любой флорариум в период <span>с 20 апреля до 20 сентября</span> в наших магазинах и выберите в подарок открытку и большую коробку конфет Rafaello или Roshen. </p>
+            <p>Это абсолютно бесплатно, потому что мы любим своих клиентов и хотим дарить вам радость так же, как вы делаете это для своих любимых!</p>
+            <a href="#our-plants" class="button see-button">Посмотреть флорариумы</a>
+        </div>
+    </div>
+
+    <div class="leaves-left wow animate__slideInLeft"><img src="images/leaves-big.png" alt="leavs"></div>
+    <div class="leaves-right wow animate__slideInRight"><img src="images/leaves-small.png" alt="leavs"></div>
+</section>
+
+<section class="how-work" id="how-work">
+    <div class="container how-work-container">
+    <h2>Как мы работаем</h2>
+    <div class="how-work-cards ">
+    <div class="how-work-card how-work-card1 wow animate__rollIn">
+        <div class="how-work-card-image"><img src="images/order.png" alt="tablet"></div>
+         <div class="how-work-card-description">
+        <div class="how-work-card-header">01.Сделайте заказ</div>
+        <div class="how-work-card-text">Выберите букет и заполните форму заказа на сайте или позвоните нам. Укажите способ доставки. После оформления заказа наш менеджер свяжется с вами в теченеи 10 минут для уточнения деталей заказа.</div>
+        </div>
+    </div>
+
+    <div class="how-work-card how-work-card2 wow animate__rollIn">
+        <div class="how-work-card-image"><img src="images/wallet.png" alt="wallet"></div>
+        <div class="how-work-card-description">
+        <div class="how-work-card-header">02.Оплатите</div>
+        <div class="how-work-card-text">Вы можете оплатить букет прямо на сайте онлайн или наличными нашему курьеру. </div>
+    </div>
+    </div>
+
+        <div class="how-work-card how-work-card3 wow animate__rollIn">
+            <div class="how-work-card-image"><img src="images/wait.png" alt="expectation"></div>
+            <div class="how-work-card-description">
+                <div class="how-work-card-header">03.Ждите доставку</div>
+                <div class="how-work-card-text">В назначенный день и время мы доставим ваш букет абсолютно бесплатно. Он будет бережно упакован и вручен вам вместе с подарками, идущими в комплекте с букетом.</div>
+            </div>
+        </div>
+
+    <div class="how-work-card how-work-card4 wow animate__rollIn">
+        <div class="how-work-card-image"><img src="images/return.png" alt="camera"></div>
+        <div class="how-work-card-description">
+        <div class="how-work-card-header">04.Фотоотчет</div>
+        <div class="how-work-card-text">Сделайте фотографию с нашим букетом, отметьте наш аккаунт в инстаграм @flowerfantasy и получите скидку 10% на следующий заказ в течение месяца.</div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="cactus3"><img src="images/cactus3.png" alt="cactus3"></div>
+</section>
+
+<section class="photogallery">
+    <div class="container photogallery-container">
+        <h2>Фотогалерея</h2>
+        <div class="photogallery-images">
+            <a href="images/picture1.png" class="photogallery-image open-popup-link wow animate__fadeInTopLeft"><img src="images/picture1.png" alt="picture1"></a>
+
+            <a href="images/picture2.png" class="photogallery-image open-popup-link wow animate__fadeInDown"><img src="images/picture2.png" alt="picture2"></a>
+
+
+            <a href="images/picture3.png" class="photogallery-image-big open-popup-link wow animate__fadeInTopRight"><img src="images/picture3.png" alt="picture3"></a>
+
+            <a href="images/picture4.png" class="photogallery-image open-popup-link wow animate__fadeInBottomLeft"><img src="images/picture4.png" alt="picture4"></a>
+
+            <a href="images/picture5.png" class="photogallery-image open-popup-link wow animate__fadeInUp"><img src="images/picture5.png" alt="picture5"></a>
+        </div>
+    </div>
+</section>
+
+<section class="responses">
+    <div class="container responses-container">
+        <h2>Отзывы наших клиентов</h2>
+    <div class="responses-carousel wow animate__rotateIn">
+
+               <div class="response-card">
+            <div class="response-card-image"><img src="images/client1.png" alt="client1"></div>
+            <div class="response-card-header">Мурад</div>
+            <div class="response-card-text">Спасибо большое за вашу работу. Флорариум замечательный! Моя девушка была в восторге. Доставка была вовремя и курьер был очень вежливый. Буду советовать друзьям!</div>
+        </div>
+        <div class="response-card">
+            <div class="response-card-image"><img src="images/client2.png" alt="client2"></div>
+            <div class="response-card-header">Кирилл</div>
+            <div class="response-card-text">Я покупал флорариум для с в подарок своей подруге. Хочу выразить свою благодарность за дополнительный подарок к покупке.</div>
+        </div>
+        <div class="response-card">
+            <div class="response-card-image"><img src="images/client3.png" alt="client3"></div>
+            <div class="response-card-header">Юля</div>
+            <div class="response-card-text">Молодцы! Хорошо что есть такой сервис!!! Я покупаю уже несколько раз флорариумы. Всегда отличные композиции и быстрая доставка. </div>
+        </div>
+
+        <div class="response-card">
+            <div class="response-card-image"><img src="images/client4.png" alt="client4"></div>
+            <div class="response-card-header">Виктор</div>
+            <div class="response-card-text">Давно хотелось украсить дом несложными в уходе растениями. Как здорово, что благодаря вашему магазину есть такая возможность!</div>
+        </div>
+
+        <div class="response-card">
+            <div class="response-card-image"><img src="images/client5.png" alt="client5"></div>
+            <div class="response-card-header">Ирина</div>
+            <div class="response-card-text">Приобрела чудесный орхидариум в свою коллекцию. Спасибо за быструю доставку! Обязательно закажу композиции в подарок подругам.</div>
+        </div>
+
+    </div>
+
+        <div class="arrow arrow-prev"></div>
+        <div class="arrow arrow-next"></div>
+
+    </div>
+    <div class="cactus4"><img src="images/cactus4.png" alt="cactus4"></div>
+</section>
+
+<section class="conditions" id="conditions">
+    <div class="container conditions-container">
+        <div class="condition-card delivery wow animate__fadeInTopLeft">
+            <h2>Доставка</h2>
+            <div class="variants">
+
+                <div class="variant pickup">
+                    <img src="images/pickup.png" alt="box">
+
+                    <div class="variant-description">
+                        <div class="variants-header">Самовывоз</div>
+                        <div class="variant-text">Бесплатно по адресу: Краснодар, проспект Некрасова, д. 24. Вход со двора.</div>
+                    </div>
+                </div>
+                <div class="variant courier">
+                    <img src="images/courier.png" alt="car">
+
+                    <div class="variant-description">
+                        <div class="variants-header">Доставка нашим курьером</div>
+                        <div class="variant-text">Бесплатно по указанному вами адресу. Время доставки согласовывается с менеджером по телефону.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="condition-card payment wow animate__fadeInTopRight">
+            <h2>Оплата</h2>
+            <div class="variants">
+                <div class="variant online-pay">
+                    <img src="images/payment.png" alt="card">
+                    <div class="variant-description">
+                        <div class="variants-header">Оплата картой на сайте</div>
+                        <div class="variant-text">Мы используем безопасные методы оплаты, и вы можете оплатить заказ прямо на сайте.</div>
+                    </div>
+                </div>
+                <div class="variant cash">
+                    <img src="images/wallet.png" alt="wallet">
+                    <div class="variant-description">
+                        <div class="variants-header">Наличными курьеру</div>
+                        <div class="variant-text">Вы можете произвести оплату наличными на руки нашему курьеру и получить чек заказа.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer-container">
+        <div class="contacts">
+            <div class="logo"><img src="images/logo.png" alt="logo"></div>
+            <div class="social-networks">
+
+            <a href="javascript:void(0)" class="svg svg-vk">
+                <?xml version="1.0" ?><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title/><g data-name="VK Logo" id="VK_Logo"><g data-name="&lt;Group&gt;" id="_Group_"><path d="M.5,6.5h4s2.31,6,4.5,6c.41,0,.5-.75.5-3s-.59-3-1-3c0-.41.78-1,3-1s2,.06,2,1v4c0,1.16.38,2,1,2s4.22-4.44,4.5-6h4.5c0,.53-4,6.06-4,6.5s4,4.5,4,5-.87.5-2,.5H19c-.59,0-3.16-3-4.5-3s-.28,3-1.5,3H11C7.28,18.5,1,9.41.5,6.5Z" data-name="&lt;Path&gt;" id="_Path_" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round"/></g></g></svg>
+            </a>
+
+                <a href="javascript:void(0)" class="svg svg-fb">
+            <?xml version="1.0" ?><svg data-name="Layer 1" id="Layer_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:6.5px;}</style></defs><title/><path class="cls-1" d="M53.68,38.26v15.1H37.11V72H53.68v42H73.29V72H90l2-18.63H73.29V38.26c0-2.67,2.11-4,3-4.82,1.57-1.34,9.15-1.55,9.15-1.55h7.43V15a93.26,93.26,0,0,0-11.68-1C53.11,14,53.68,38.26,53.68,38.26Z"/></svg>
+                </a>
+
+                <a href="javascript:void(0)" class="svg svg-insta">
+                    <?xml version="1.0" ?><svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><rect fill="none" height="256" width="256"/><circle cx="128" cy="128" fill="none" r="40" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><rect fill="none" height="184" rx="48" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" width="184" x="36" y="36"/><circle cx="180" cy="76" r="10"/></svg>
+                </a>
+            </div>
+
+            <div class="callback">
+            <div class="phones">
+                <div><a href="tel:+9121999999">+912 19 999 99</a></div>
+                <div><a href="tel:+9127273393">+912 72 733 93</a></div>
+            </div>
+                <button type="button" class="button ring-button">Заказать звонок</button>
+            </div>
+        </div>
+        <div class="rights">
+            <p>©2020. Все права защищены</p>
+            <a href="#">Политика конфиденциальности</a>
+        </div>
+    </div>
+    <div class="cactus5"><img src="images/cactus5.png" alt="cactus5"></div>
+</footer>
+
+
+<div class="ring-popup" id="ring-popup">
+
+    <div class="ring-popup-content">
+        <div class="ring-popup-closing-cross">
+            <div class="closing-cross">
+                <div class="closing-cross-circle">
+                    <div class="closing-cross-part1"></div>
+                    <div class="closing-cross-part2"></div>
+                </div>
+            </div>
+        </div>
+        <form class="ring-popup-form">
+    <p class="ring-popup-text">Ваш телефон</p>
+    <input type="text" class="ring-popup-input" id="ring-popup-phone-input">
+    <div class="ring-popup-notice ">Введите Ваш телефон!</div>
+    <button type="button" class="button ring-popup-button" id="ring-popup-button">Перезвоните мне!</button>
+        </form>
+        <div class="ring-popup-thanks">Спасибо! Мы перезвоним вам в течение нескольких минут.</div>
+    </div>
+</div>
+
+<div class="order-popup" id="order-popup">
+<div class="order-popup-content">
+    <div class="order-popup-closing-cross">
+        <div class="closing-cross">
+            <div class="closing-cross-circle">
+                <div class="closing-cross-part1"></div>
+                <div class="closing-cross-part2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="order-popup-form">
+    <div class="order-popup-form-header">Оформление заказа</div>
+    <p>Заполните данные для оформления заказа</p>
+    <form class="order-popup-form-inputs">
+    <p>1. Личные данные</p>
+        <input type="text" class="order-popup-input" id="order-popup-name" placeholder="Ваше имя">
+        <div class="order-popup-notice">
+            Введите ваше имя!
+        </div>
+        <input type="text" class="order-popup-input" id="order-popup-phone" placeholder="Ваш телефон">
+        <div class="order-popup-notice">
+            Введите ваш телефон!
+        </div>
+        <textarea id="order-popup-details" placeholder="Детали вашего заказа"></textarea>
+        <div class="order-popup-notice">
+            Введите детали вашего заказа!
+        </div>
+        <button type="button" class="button order-popup-button" id="order-popup-button">Заказать</button>
+    </form>
+    </div>
+    <div class="order-popup-image"><img src="images/order-popup-image.png" alt="florarium"></div>
+</div>
+</div>
+
+<div class="thanks-for-order-popup" id="thanks-for-order-popup">
+<div class="thanks-for-order-popup-content">
+    <div class="thanks-for-order-popup-closing-cross">
+        <div class="closing-cross">
+            <div class="closing-cross-circle">
+                <div class="closing-cross-part1"></div>
+                <div class="closing-cross-part2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="thanks-for-order-popup-header">Спасибо за ваш заказ!</div>
+    <p>После оформления заказа мы свяжемся с вами, чтобы подтвердить заказ. На следующий день после оформления заказа ваша посылка будет отправлена в место назначения. Когда ваш заказ прибудет в почтовое отделение, вам придет sms-оповещение на указанный номер телефона.
+    </p>
+    <button type="button" class="button thanks-for-order-popup-button">Продолжить покупки
+        </button>
+</div>
+</div>
+
+<div id="img-popup" class="img-popup mfp-hide">
+    Popup content
+</div>
+
+<script src="scripts/jquery-3.7.1.min.js"></script>
+<script src="scripts/jquery-ui.min.js"></script>
+<script src="scripts/slick.min.js"></script>
+<script src="scripts/jquery.magnific-popup.min.js"></script>
+<script src="scripts/wow.min.js"></script>
+<script src="scripts/checkout.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
+
+
+
+
+
