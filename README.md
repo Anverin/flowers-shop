@@ -1,0 +1,1 @@
+Landing page. Adaptive layout (HTML, LESS, flex, grid, media queries), jQuery, working with forms (validation using JS, POST requests), animation (wow.js library), magnific popup library, slick-carousel. Gulp is used to build the project.
